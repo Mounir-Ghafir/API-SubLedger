@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const RegistrationShema = mongoose.Schema(
+const RegisterShema = mongoose.Schema(
     {
         name : {
             type : String,
@@ -20,6 +20,6 @@ const RegistrationShema = mongoose.Schema(
     }
 )
 
-const Registration = mongoose.model("Registration" , RegistrationShema);
+const Register = mongoose.model("Register" , RegisterShema);
 
-module.exports = Registration;
+module.exports = Register;
